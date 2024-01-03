@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: century Georgia, ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+  min-height: 100vh; 
+background-image: url('image/study.jpg') ;
+background-size: cover;
+background-position: center;
+
+}   
+
+
+.header{
+position:fixed; 
+top: 0;
+left: 0;
+border-radius:30px;
+width: 100%;
+padding:35px 0;
+background: peachpuff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+}
+
+        
+        .nav{
+      
+        height:130px ;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:right;
+        position: absolute;
+       top:13px;
+        }
+        .logo{
+          color:rgb(170, 151, 135) ;
+          background: papayawhip;
+          width: 30px;
+         font-size: 55px;
+         font-style: italic;
+         line-height: 80px;
+          padding: 0 100px;
+         font-weight: bold;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        overflow: visible;
+        }
+       
+        .buttom{
+height: 60px;
+
+background-color:papayawhip;
+   }
+
+
+
+        
+        .nav ul {
+          padding:2px;
+          list-style: none;
+          
+        }
+        
+        .nav ul li {
+          display: inline-block;
+          position: relative;
+          
+        }
+        
+        .nav ul li a {
+          display: flex;
+          padding: 20px 50px;
+          text-decoration:uppercase;
+          color:rgb(112, 9, 28);
+          font-size: 20px;
+          border-radius: 3px;
+        }
+        
+        .nav ul li ul {
+          display: none;
+          position: absolute;
+          top: 100%;
+          right:0;
+          background:rgb(231, 163, 5);
+          
+        }
+        
+        .nav ul li:hover ul {
+          display: block;
+          color: rgb(0, 0, 0);
+        }
+        
+        .nav ul li ul li {
+          display: block;
+        }
+        .nav ul li a:hover{
+        
+          color: rgb(60, 39, 42);
+          background-color: green;
+          cursor: crosshair;
+        }
+
+   .home-page{
+color: rgb(146, 44, 66);
+position: absolute;
+top: 310px;
+left: 360px;
+font-size:40px;
+
+}     
+.home-work{
+font-size: 30px;
+height: 70px;
+width: 300px;
+position: absolute;
+left: 220px;
+top:120px;
+background-color: gray;
+
+}
+
+.home-work:hover{
+background-color: green;
+cursor: crosshair;
+}
+
+.div-clear{
+clear: both;
+}
+
+
+
+
+
